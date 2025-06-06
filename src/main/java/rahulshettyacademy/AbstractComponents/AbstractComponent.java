@@ -35,6 +35,7 @@ public class AbstractComponent {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
+		System.out.println("Test1");
 
 	}
 	
